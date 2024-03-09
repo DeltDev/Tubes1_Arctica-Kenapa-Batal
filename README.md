@@ -5,6 +5,8 @@
 ![Screenshot](noarcticamegamind.jpg)
 ![Screenshot](noarctica.jpg)
 
+##Deskripsi Singkat Program
+Program yang ada di dalam repository ini adalah sebuah bot yang dirancang untuk permainan "Diamonds" yang dibuat oleh Etimo sebagai Tugas Besar 1 Strategi Algoritma di Institut Teknologi Bandung tahun 2024. Link:```https://github.com/haziqam/tubes1-IF2211-game-engine/releases/tag/v1.1.0```   Bot ini menggunakan strategi algoritma greedy untuk mendapatkan poin sebanyak mungkin di permainan "Diamonds".
 ## Cara menjalankan bot 
 1. Pastikan Anda sudah memiliki repository dari game engine yang tertera di bawah ini dan mengetahui cara mengaktivasi game engine tersebut (caranya sudah tertulis di repository tersebut juga)
    ```
@@ -51,3 +53,8 @@
 -   Jika Anda menjalankan beberapa bot, pastikan email dan nama unik
 -   Email bisa apa saja selama mengikuti format sintaks email yang benar
 -   Nama dan password boleh apa saja selama tidak mengandung spasi
+### Tentang Pembuat Bot
+Tim "Arctica Kenapa Batal?"
+<br>Akbar Al Fattah - 13522036
+<br>Adril Putra Merin - 13522068
+<br>Christopher Brian - 13522106
