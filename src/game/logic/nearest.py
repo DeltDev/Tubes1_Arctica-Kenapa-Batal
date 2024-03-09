@@ -300,10 +300,13 @@ def pick_optimal_diamond(curr_pos: Position, diamond_list: List[GameObject], tel
       # current score is the distance from current position to ith diamond plus the distance from ith diamond the the base
       else:
         curr_score = curr_dist + base_dist
-    # if the number of diamond needed is 1,
-    # current score is the distance from current position to ith diamond's position
     else:
+      # if the number of diamond needed is 1 and ith diamond point is equal to 1,
+      # current score is the distance from current position to the ith diamond's position plus the distance between ith diamond and jth diamond (where jth diamond is the nearest diamond from i)
+      # otherwise, the score is just the distance from current position to the ith diamond
       curr_score = curr_dist
+      if diamond_list[i].properties.points == 1 and diamond_len > 1:
+        curr_score += diamond_dist_list[i][0]
     # if current score is lesser than minimum score
     # or current score is equal to minimum score and ith diamond distance to base is lesser than minimum base distance (case when number of diamond needed is 2)
     # set current score as the minimum score
