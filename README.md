@@ -48,6 +48,6 @@
 
 #### Catatan:
 
--   Jika Anda menjalankan beberapa bot, pastikan email dan nama unik If you run multiple bots, make sure each emails and names are unique
+-   Jika Anda menjalankan beberapa bot, pastikan email dan nama unik
 -   Email bisa apa saja selama mengikuti format sintaks email yang benar
 -   Nama dan password boleh apa saja selama tidak mengandung spasi
